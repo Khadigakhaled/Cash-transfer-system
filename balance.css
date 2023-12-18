@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+}
+
+.nav {
+    width: 250px;
+    background-color: rgb(0, 183, 255);
+    height: 750px;
+    overflow-y: auto;
+}
+
+.nav h3{
+    color: white; 
+    margin-left: 20px;
+    font-size: 30px;
+    margin-bottom: 100px;
+}
+
+.nav h4{
+    color: white;
+    margin-left: 20px;
+    font-size: 25px;
+    padding: 5px;
+}
+
+.nav h4:hover{
+    color: rgb(31, 112, 145);
+    text-decoration: underline;
+}
+
+.right {
+    flex-grow: 1;
+    padding: 20px;
+    background-color:rgb(249, 251, 252);
+}
+
+.right .total .totalbox{
+    border: 4px solid rgb(133, 213, 245);
+    border-radius: 25px;
+    box-shadow: 10px 10px 0 0 rgb(129, 211, 243); 
+    width: 600px;
+    margin-left: 200px;
+    margin-bottom: 30px;
+    background-color: rgb(236, 242, 243);
+}
+
+.right .total .totalbox h2{
+    color: rgb(31, 112, 145);
+    margin-left: 30px;
+
+}
+
+.right .total .totalbox h3{
+    color:rgb(27, 99, 128) ;
+    margin-left: 50px;
+    margin-top: 40px;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #00b0e6, 0 0 40px #00b0e6, 0 0 50px #00b0e6, 0 0 60px #00b0e6, 0 0 70px #00b0e6;}
+
+.right .total .totalbox button{
+    border: 2px solid rgb(0, 183, 255);
+    border-radius: 25px;
+    width: 100px;
+    padding: 10px;
+    margin-left: 400px;
+    margin-bottom: 20px;
+    transition-duration: 0.25;
+}
+.right .total .totalbox button:hover{
+    border: 2px solid rgb(0, 183, 255);
+    border-radius: 25px;
+    width: 100px;
+    padding: 10px;
+    margin-left: 400px;
+    margin-bottom: 20px;
+    background-color:  rgb(0, 183, 255);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(7, 70, 107, 0.445);
+}
+
+.right .minus .minusbox{
+    border: 4px solid rgb(133, 213, 245);
+    border-radius: 25px;
+    box-shadow: 10px 10px 0 0 rgb(129, 211, 243); 
+    width: 600px;
+    margin-left: 200px;
+    margin-bottom: 30px;
+    background-color: rgb(236, 242, 243);
+
+}
+
+.right .minus .minusbox h2{
+    color: rgb(31, 112, 145);
+    margin-left: 30px;
+
+}
+
+.right .minus .minusbox h3{
+    color:rgb(27, 99, 128) ;
+    margin-left: 50px;
+    margin-top: 40px;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #00b0e6, 0 0 40px #00b0e6, 0 0 50px #00b0e6, 0 0 60px #00b0e6, 0 0 70px #00b0e6;
+}
+
+.right .minus .minusbox button{
+    border: 2px solid rgb(0, 183, 255);
+    border-radius: 25px;
+    width: 100px;
+    padding: 10px;
+    margin-left: 400px;
+    margin-bottom: 20px;
+    transition-duration: 0.25;
+}
+.right .minus .minusbox button:hover{
+    border: 2px solid rgb(0, 183, 255);
+    border-radius: 25px;
+    width: 100px;
+    padding: 10px;
+    margin-left: 400px;
+    margin-bottom: 20px;
+    background-color:  rgb(0, 183, 255);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(7, 70, 107, 0.445);
+}

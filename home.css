@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+}
+
+.nav {
+    width: 250px;
+    background-color: rgb(0, 183, 255);
+    height: auto;
+    overflow-y: auto;
+}
+
+.nav h3{
+    color: white; 
+    margin-left: 20px;
+    font-size: 30px;
+    margin-bottom: 100px;
+}
+
+.nav h4{
+    color: white;
+    margin-left: 20px;
+    font-size: 25px;
+    padding: 5px;
+}
+
+.nav h4:hover{
+    color: rgb(31, 112, 145);
+    text-decoration: underline;
+}
+
+.content {
+    flex-grow: 1;
+    padding: 20px;
+    background-color:rgb(249, 251, 252);
+}
+
+.content .appname h1{
+    color: rgb(0, 183, 255);
+    font-size: 70px;
+}
+.content .appname .smaller{
+    color: rgb(31, 112, 145);
+    font-size: 50px;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+
+.content .picture img{
+    width: 1100px;
+    height: 300px;
+    border-radius: 25px;
+}
+
+.content .who .appname p{
+
+    font-size: 30px;
+    color: rgb(31, 112, 145);
+    margin-left: 20px;
+}
+
+.content .contact .appname h3{
+    color: rgb(31, 112, 145);
+    font-size: 20px;
+    margin-left: 30px;
+}
+.content .contact .appname label{
+    color: rgb(31, 112, 145);
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+.content .contact .appname input{
+    margin-left: 30px;
+    border: 2px solid rgb(0, 183, 255);
+    border-radius: 25px;
+    padding: 10px;
+    width: 600px;   
+}
+
+.content .service .appname .sss div{
+    text-align: center;
+    background-color:rgb(249, 251, 252);
+    width: 110px;
+    height: 100px;
+    margin-left: 100px;
+    margin-top:20px;
+    border: 4px solid rgb(133, 213, 245);
+    border-radius: 25px;
+    box-shadow: 10px 10px 0 0 rgb(129, 211, 243); 
+}
+
+.content .service .appname .sss div:hover{
+    text-align: center;
+    background-color:rgb(126, 212, 255);
+    width: 110px;
+    height: 100px;
+    margin-left: 100px;
+    margin-top:20px;
+    border: 4px solid rgb(133, 213, 245);
+    border-radius: 25px;
+    box-shadow: 10px 10px 0 0 rgb(129, 211, 243); 
+}
+
+
+.content .service .appname .sss div h5{
+    color: rgb(31, 112, 145);
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #00b0e6, 0 0 40px #00b0e6, 0 0 50px #00b0e6, 0 0 60px #00b0e6, 0 0 70px #00b0e6;
+}

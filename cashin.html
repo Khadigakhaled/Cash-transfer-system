@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <link rel="stylesheet" type="text/css" href="cashin.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="nav">
+                <h3 style="text-shadow: 0 0 10px #20d4e0, 0 0 20px #fff, 0 0 30px #a4e8ff, 0 0 40px #e7f9ff, 0 0 50px #e7f9ff, 0 0 60px #e7f9ff, 0 0 70px #a4e8ff">MoneyGoo</h3>
+                <h4>Cash in</h4>
+                <h4>Transfer Money</h4>
+                <h4>Check balance</h4>
+                <h4>History</h4>
+                <h4>Profile</h4>
+                <h4>Logout</h4>
+            </div>
+            <div class="right">     
+                <form class="form">
+                    <div><h2>Cash In Money</h2></div>
+                    <div><label>Amount: <span style="color: red;">*</span></label>
+                    <input type="text" name="amount" id="amount" placeholder="Amount cashed" required></div>
+                    <div><label>Currency:<span style="color: red;">*</span> </label>
+                    <input type="text" name="curr" id="curr" placeholder="currency" required></div>
+                    <div style="margin-bottom:5px;">
+                        <label >Paying method: <span style="color: red;" >*</span></label><br>
+                        <input type="radio" id="fawry" name="fawry" value="fawry" required>
+                        <label for="fawry">Fawry</label><br>
+                        <input type="radio" id="cc" name="cc" value="cc">
+                        <label for="cc">Credit Card</label><br></div>
+                        <div><label for="terms">I've read and agreed to terms and conditions <span style="color: red;">*</span></label><br>
+                        <input type="checkbox" id="terms" name="terms" value="terms"></div>
+                    <div><button id="signup">Procceed</button></div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

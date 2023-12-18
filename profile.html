@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <link rel="stylesheet" type="text/css" href="profile.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="nav">
+                <h3 style="text-shadow: 0 0 10px #20d4e0, 0 0 20px #fff, 0 0 30px #a4e8ff, 0 0 40px #e7f9ff, 0 0 50px #e7f9ff, 0 0 60px #e7f9ff, 0 0 70px #a4e8ff">MoneyGoo</h3>
+                <h4>Cash in</h4>
+                <h4>Transfer Money</h4>
+                <h4>Check balance</h4>
+                <h4>History</h4>
+                <h4>Profile</h4>
+                <h4>Logout</h4>
+            </div>
+            <div class="right">
+            <div style="display:flex;"><h1 style="color: rgb(0, 183, 255);
+                font-size:30px; margin-left:20px">Edit Profile</h1>
+                <img src="images/person.png" style="width: 90px; height:70px; margin-left:700px"></div>
+                <hr style="width: 100px; border:3px solid rgb(27, 99, 128); margin-left: 50px; margin-bottom:30px ">
+                <form class="form">
+                    <div><label>Username: </label>
+                    <input type="text" id="username" placeholder="Username"></div>
+                    <div><label>Mobile number: </label>
+                    <input type="text" id="mobile" placeholder="(+20)xxxxxxxxxx"></div>
+                    <div><label>Email: </label>
+                    <input type="email" id="email" placeholder="abc@abc.com"></div>
+                    <div><label>Mobile company:</label>
+                    <select name="company" id="comp">
+                    <option value="vodafone">Vodafone</option>
+                    <option value="orange">Orange</option>
+                    <option value="etisalat">Etisalat</option>
+                    <option value="we">We</option>
+                    </select></div>
+                    <div><label>Passsword: </label>
+                    <input type="password" name="pass" id="pass" placeholder="Password"></div>
+                    <div><button id="save" style="width: 200px; margin-right:20px;">Save Changes</button> <button id="cancel" style="width: 200px;">Cancel</button> </div>
+                    
+                </form>
+            </div>
+        </div>
+    </body>
+</html>  
